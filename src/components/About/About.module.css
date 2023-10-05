@@ -1,0 +1,133 @@
+.wrapperImg {
+  /* position: absolute; */
+  top: 250px;
+  left: 100px;
+}
+
+.img {
+  height: 320px;
+  width: 400px;
+  --s: 6px;
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #0000;
+  outline: 1px solid gray;
+  outline-offset: calc(-1*var(--s));
+  /* background: conic-gradient(from 90deg at 1px 1px, #0000 25%, white 0); */
+
+}
+
+.div {
+  position: absolute;
+  top: 170px;
+  display: flex;
+  padding-right: 88px;
+  padding-left: 88px;
+}
+
+.wrapper {
+  margin: 20px 40px 0 50px;
+}
+
+.description {
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+}
+
+.title {
+  border-bottom: 2px solid #5756e6;
+  width: 150px;
+  margin: 0px;
+}
+
+.text {
+  margin: 0px;
+}
+
+.wrapperDescription {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.wrapperTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border-bottom: 1px solid gray;
+  position: absolute;
+  top: 600px;
+  width: 1424px;
+}
+
+.wrapperText {
+  display: flex;
+  margin-top: 20px;
+}
+
+.textInfo {
+  margin: 0 0 0 15px;
+}
+
+.divContact {
+  left: 473px;
+  display: flex;
+  position: absolute;
+  top: 350px;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.span {
+  font-weight: 900;
+  color: #5756e6;
+}
+
+.btn {
+  margin-top: 40px;
+  display: inline-block;
+  min-width: 160px;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid;
+  background-color: inherit;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+  color: #5756e6;
+  border-color: #5756e6;
+  background-image: linear-gradient(90deg, #5756e6 50%, transparent 50%);
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #fff;
+}
+
+.wrapperIcons {
+  display: flex;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.icons {
+  color: #555;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: all .2s ease-in-out;
+  padding-right: 40px;
+}
+
+.icons:hover {
+  color: #5756e6;
+  transform: scale(1.5);
+}
+
+@media (max-width: 767px) {
+  
+}
