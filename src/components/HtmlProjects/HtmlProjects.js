@@ -5,9 +5,11 @@ import { useSelector } from 'react-redux';
 import Modal from '../Modal/Modal';
 import { useState } from 'react';
 
-
+/*
+ TODO:
+ 1. Rename class
+*/
 const HtmlProjects = () => {
-
   const projects = useSelector((state) => (state.HtmlCssProjects));
   const [isOpen, setIsOpen] = useState(false);
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);

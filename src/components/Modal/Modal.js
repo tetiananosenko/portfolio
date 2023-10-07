@@ -2,11 +2,9 @@ import styles from "./Modal.module.css";
 import { RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-
 const Modal = ({ setIsOpen, text, urlGithub, urlLiveLink }) => {
   return (
     <>
-=
       <div className={styles.darkBG} onClick={() => setIsOpen(false)} />
       <div className={styles.centered}>
         <div className={styles.modal}>

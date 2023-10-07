@@ -2,6 +2,11 @@ import styles from './Portfolio.module.css';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+
+/*
+  1. Move article to component ProjectCard
+*/
 
 const PortfolioStart = () => {
   const cardsPortfolio = useSelector(select => select.cardsPortfolio);

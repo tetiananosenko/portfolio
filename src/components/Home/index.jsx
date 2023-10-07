@@ -1,25 +1,10 @@
-import styles from './Home.module.css';
 import { Link } from 'react-router-dom';
-import { BsLinkedin } from 'react-icons/bs';
-import { BsGithub } from 'react-icons/bs';
-import { BsTelegram } from 'react-icons/bs';
+import SocialLinksWrapper from '../SocialLinksWrapper';
+import styles from './index.module.css';
 
-
-
-const Home = () => {
-  return (
-    <>
-      <div className={styles.wrapperIcons}>
-        <Link to={"https://www.linkedin.com/in/tetiana-nosenko-ba350a274/"} target="_blank">
-          <BsLinkedin className={styles.icons} />
-        </Link>
-        <Link to={"https://github.com/tetiananosenko"} target="_blank">
-          <BsGithub className={styles.icons} />
-        </Link>
-        <Link to={"https://t.me/tat_vladimirovna"} target="_blank">
-          <BsTelegram className={styles.icons} />
-        </Link>
-      </div>
+const Home = () =>  (
+  <>
+    <SocialLinksWrapper direction='column' />
       <div>
         <p className={styles.titleFirstName}>Te<span className={styles.colorWords}>ti</span>ana</p>
         <p className={styles.titleSurname}>Nosenko</p>
@@ -38,6 +23,5 @@ const Home = () => {
       </div>
     </>
   )
-}
 
 export default Home;
