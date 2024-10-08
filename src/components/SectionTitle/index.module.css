@@ -1,0 +1,22 @@
+
+
+.title {
+  border-bottom: 2px solid #5756e6;
+  width: 150px;
+  margin: 0px;
+}
+
+.text {
+  margin: 0px;
+}
+
+.wrapperDescription {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.wrapperTitle {
+  display: flex;
+  justify-content: center;
+}

@@ -1,21 +1,17 @@
 import { Link } from 'react-router-dom';
 import DetailsItem from '../DetailsItem';
+import SectionTitle from '../SectionTitle';
 import SocialLinksWrapper from '../SocialLinksWrapper';
 import styles from './index.module.css';
 
 const About = () => (
     <>
-      <div className={styles.wrapperDescription}>
-        <p className={styles.text}>Let me introduce myself</p>
-        <div className={styles.wrapperTitle}>
-          <h1 className={styles.title}>About me</h1>
-        </div>
-      </div>
+    <SectionTitle title='About me' text='Let me introduce myself' />
       <div className={styles.div}>
         <figure className={styles.wrapperImg}>
           <img src={`${process.env.PUBLIC_URL}/images/photo-author.png`}
             alt='self-portrait'
-            className={styles.img} />
+            className={styles.imgAbout} />
         </figure>
         <div className={styles.wrapper}>
           <h2>I'm a Frontend Developer who crafts amazing digital experiences!</h2>

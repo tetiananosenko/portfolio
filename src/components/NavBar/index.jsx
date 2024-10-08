@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { FaHouse } from 'react-icons/fa6';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { MdWork } from 'react-icons/md';
-import styles from './NavBar.module.css';
+import styles from './index.module.css';
 
 const NavBar = () => (
   <nav className={styles.navigation}>
